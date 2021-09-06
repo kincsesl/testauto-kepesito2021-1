@@ -15,14 +15,14 @@ id_k = ['a', 'b', 'submit', 'results']
 adatok = [["", "", ""], ["2", "3", "c: 10"], ["", "", "c: NaN"]]
 
 
-def vizsgal(a, b, c):
+def vizsgal(a, b, c):  # Üreseket néz
     log = driver.find_element_by_id(id_k[0]).get_attribute("value") == a
     log = log and driver.find_element_by_id(id_k[1]).get_attribute("value") == b
     log = log and driver.find_element_by_id(id_k[3]).text == c
     return log
 
 
-def tesztel(a, b, c):
+def tesztel(a, b, c):  # Kitöltötteket néz.
     driver.refresh()
     driver.find_element_by_id(id_k[0]).send_keys(a)
     driver.find_element_by_id(id_k[1]).send_keys(b)
