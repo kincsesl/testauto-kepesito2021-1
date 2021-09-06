@@ -35,10 +35,11 @@ def test_02():
 
 def test_03():
     driver.find_element_by_id(submitgomb).click()
-    hol = int(ascii_tab.find(driver.find_element_by_id(karakter_id).text))
-    mennyivel = int(driver.find_element_by_id(szam_id).text)
+    hol = int(ascii_tab.find(driver.find_element_by_id(karakter_id).text))  # Hol van?
+    mennyivel = int(driver.find_element_by_id(szam_id).text)  # Vigyük arrébb.
     vege = driver.find_element_by_id(eredmeny).text
     if driver.find_element_by_id(muvelet_id).text == "+":
-        assert ascii_tab[(hol + mennyivel) % hossza] == vege
+        assert ascii_tab[(hol + mennyivel) % hossza] == vege  # Modulo, mert túlcsordulhat.
     else:
         assert ascii_tab[(hol - mennyivel) % hossza] == vege
+    driver.close()

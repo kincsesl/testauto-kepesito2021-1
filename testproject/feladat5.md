@@ -17,7 +17,8 @@ A feladatod az alábbi tesztesetek lefejlesztése:
     
 * Bingo számok ellenőzrzése:
     * Addig nyomjuk a `play` gobot amíg az első bingo felirat meg nem jelenik
-    * Ellenőrizzük, hogy a bingo sorában vagy oszlopában lévő számok a szelvényről tényleg a már kihúzott számok közül kerültek-e ki
+    * Ellenőrizzük, hogy a bingo sorában vagy oszlopában lévő számok a szelvényről tényleg a már
+    * kihúzott számok közül kerültek-e ki
     
 * Új játékot tudunk indítani
     * az init gomb megnyomásával a felület visszatér a kiindulási értékekhez
