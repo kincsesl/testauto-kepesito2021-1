@@ -1,7 +1,5 @@
-# Megjegyzés: a weboldal nem a Pitagorasz-tétel szerint számol: 2*2 +3*3 != 10*10
 import time
 
-"/html/body/br./text()"
 from selenium import webdriver
 from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.chrome.options import Options
@@ -53,5 +51,6 @@ def test_03():  # Kijelzi a végén az eredményt
     except:
         log = False
     assert log
+    driver.close()
 
 

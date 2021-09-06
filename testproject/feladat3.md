@@ -2,7 +2,8 @@
 
 Készíts egy Python python applikációt (egy darab python file) ami selenium-ot használ. 
 
-A program töltse be a Alfanumerikus mezőapp-ot az [https://ambitious-sky-0d3acbd03.azurestaticapps.net/k3.html](https://ambitious-sky-0d3acbd03.azurestaticapps.net/k3.html) oldalról.
+A program töltse be a Alfanumerikus mezőapp-ot az 
+[https://ambitious-sky-0d3acbd03.azurestaticapps.net/k3.html](https://ambitious-sky-0d3acbd03.azurestaticapps.net/k3.html) oldalról.
 
 Feladatod, hogy automatizáld selenium webdriverrel a Alfanumerikus mező app tesztelését.
 
