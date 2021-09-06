@@ -2,7 +2,8 @@
 
 Készíts egy Python python applikációt (egy darab python file) ami selenium-ot használ. 
 
-A program töltse be a Műveletek karakterekkel app-ot az [https://ambitious-sky-0d3acbd03.azurestaticapps.net/k4.html](https://ambitious-sky-0d3acbd03.azurestaticapps.net/k4.html) oldalról.
+A program töltse be a Műveletek karakterekkel app-ot az
+[https://ambitious-sky-0d3acbd03.azurestaticapps.net/k4.html](https://ambitious-sky-0d3acbd03.azurestaticapps.net/k4.html) oldalról.
 
 Feladatod, hogy automatizáld selenium webdriverrel a Műveletek karakterekkel app tesztelését.
 
